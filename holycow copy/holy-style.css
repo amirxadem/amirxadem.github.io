@@ -1,0 +1,313 @@
+@font-face {
+font-family: 'myFirstFont';
+src: url(/holycow/font2/GT-Walsheim-Pro-Trial-Bold.otf);
+}
+
+.row {
+	background-color: #FE5653;
+    padding-bottom: 170px;
+}
+
+.left img {
+    width: 1250px;
+    margin-top: 90px;
+    margin-right: -400px;
+    position: relative;
+    float: right;
+}
+
+.right img {
+    width:230px;
+    margin-top: 70px;
+    margin-left: 106px;
+}
+
+.image img {
+    margin: auto;
+    margin-left: 110px;
+    margin-top: 30px;
+}
+
+.right button {
+    width: 310px;
+    height: 70px;
+    background: transparent;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #FFFFFF;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: Montserrat;
+    outline: none;
+    cursor: pointer;
+    margin-left: 70px;
+
+}
+
+.right button:hover {
+    background: #ff7b81;
+    transition: 0.1s;
+
+}
+#login button {
+    margin-top: 60px;
+
+}
+#signup button {
+    margin-top: 10px;
+}
+#signupfacebook button {
+    background: #3b5998;
+    border: 1px solid #3b5998;
+    margin-top: 10px;
+}
+#signupfacebook button:hover {
+    background: #5e80c9;
+    transition: 0.1s;
+}
+.logo {
+    width: 213px;
+    height: 36px;
+    margin: 30px auto;
+}
+
+.login-block {
+    width: 380px;
+    padding: 80px;
+    background: #fff;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+.login-block h1 {
+    text-align: center;
+    background-color: white;
+    font-size: 18px;
+    font-family: Montserrat;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.login-block input {
+    width: 100%;
+    height: 42px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-family: Montserrat;
+    padding: 0 20px 0 50px;
+    outline: none;
+}
+
+.login-block input#username {
+    background: #fff url('http://i.imgur.com/u0XmBmv.png') 20px top no-repeat;
+    background-size: 16px 80px;
+}
+
+.login-block input#username:focus {
+    background: #fff url('http://i.imgur.com/u0XmBmv.png') 20px bottom no-repeat;
+    background-size: 16px 80px;
+}
+
+
+.login-block input#password {
+    background: #fff url('http://i.imgur.com/Qf83FTt.png') 20px top no-repeat;
+    background-size: 16px 80px;
+}
+
+.login-block input#password:focus {
+    background: #fff url('http://i.imgur.com/Qf83FTt.png') 20px bottom no-repeat;
+    background-size: 16px 80px;
+}
+
+.login-block input:active, .login-block input:focus {
+    border: 1px solid #ff656c;
+}
+
+.login-block button {
+    width: 100%;
+    height: 40px;
+    background: #ff656c;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #e15960;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: Montserrat;
+    outline: none;
+    cursor: pointer;
+}
+
+.login-block button:hover {
+    background: #ff7b81;
+    transition: 0.1s;
+}
+
+.didyouknow {
+    margin-top: 80px;
+    padding-bottom: 80px;
+}
+
+.didyouknow h1 {
+    text-align: center;
+    font-family: Montserrat;
+    color:#FE5653;
+    font-size: 60px;
+
+}
+
+.didyouknow p {
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 26px;
+    margin-top: 40px;
+
+
+}
+
+.pagetwo {
+    text-align: center;
+
+}
+
+.yourimpact img:nth-child(1) {
+    width: 300px;
+    padding-top: 100px;
+}
+
+.small img {
+    margin-left: 200px;
+
+}
+
+.small2 img{
+    margin-right: 200px;
+}
+.small p {
+    margin-left: 200px;
+
+}
+
+.small2 p{
+    margin-right: 200px;
+}
+.small h1 {
+    margin-left: 200px;
+}
+
+.small2 h1{
+    margin-right: 200px;
+
+}
+.yourimpact img:nth-child(2) {
+    width:150px;
+}
+
+
+.yourimpact h1 {
+    text-align: center;
+    font-size: 80px;
+    color: #BDCCD4;
+}
+
+.yourimpact p {
+    text-align: center;
+    font-size:25px;
+    font-family: Montserrat;
+    color: #BDCCD4;
+}
+
+.howitworks {
+    text-align: center;
+    margin-top: 50px;
+    font-family: Montserrat;
+}
+
+.howitworks h1 {
+    color:#FE5653;
+    font-size: 60px
+}
+
+.howitworks p {
+    font-size: 25px;
+    margin-top: 40px;
+}
+
+.eximages {
+    text-align: center;
+    margin-right: 290px;
+    margin-left: 290px;
+}
+
+.eximages img {
+    width:320px;
+    text-align: center;
+    padding-top: 25px;
+    margin-top: 40px;
+}
+
+.dlbutton button {
+    width: 310px;
+    height: 70px;
+    background: #03C4FA;
+    border-color: white;
+    box-sizing: border-box;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: Montserrat;
+    outline: none;
+    cursor: pointer;
+
+}
+
+.dlbutton {
+    text-align: center;
+    margin: 0px auto;
+}
+
+.dlbutton button:hover {
+    background: #ff7b81;
+    transition: 0.2s;
+}
+
+#download button {
+    margin-top: 30px;
+}
+#download2 button {
+    margin-top: 50px;
+    margin-bottom:20px;
+
+}
+
+.okayyy {
+    background-color: #6651A8;
+}
+
+.col-md-4 p {
+     font-family: Montserrat;
+     font-size: 25px;
+     margin-top: 20px;
+}
+
+.footer {
+    background-color: #FE5653;
+    margin-top: 45%;
+    height: 60px;
+    margin-bottom: 70px;
+    color: white;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+

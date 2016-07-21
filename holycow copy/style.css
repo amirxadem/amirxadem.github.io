@@ -1,0 +1,151 @@
+* {
+	font-family: 'GT-Walsheim';
+}
+
+@font-face {
+font-family: 'GT-Walsheim-Regular';
+src: url(http://sea2016.flywheelsites.com/webfonts/GT-Walsheim-Regular.eot);
+src: url(http://sea2016.flywheelsites.com/webfonts/GT-Walsheim-Regular.eot?#iefix) format('embedded-opentype'),
+url(http://sea2016.flywheelsites.com/webfonts/GT-Walsheim-Regular.woff2) format('woff2'),
+url(http://sea2016.flywheelsites.com/webfonts/GT-Walsheim-Regular.woff) format('woff'),
+url(http://sea2016.flywheelsites.com/webfonts/GT-Walsheim-Regular.ttf) format('truetype'),
+url(http://sea2016.flywheelsites.com/webfonts/GT-Walsheim-Regular.svg#youworkforthem) format('svg');
+font-weight: normal;
+font-style: normal;
+}
+@font-face {
+font-family: 'GT-Walsheim-Regular-Oblique';
+src: url(http://sea2016.flywheelsites.com/webfonts/GT-Walsheim-Regular-Oblique.eot);
+src: url(http://sea2016.flywheelsites.com/webfonts/GT-Walsheim-Regular-Oblique.eot?#iefix) format('embedded-opentype'),
+url(http://sea2016.flywheelsites.com/webfonts/GT-Walsheim-Regular-Oblique.woff2) format('woff2'),
+url(http://sea2016.flywheelsites.com/webfonts/GT-Walsheim-Regular-Oblique.woff) format('woff'),
+url(http://sea2016.flywheelsites.com/webfonts/GT-Walsheim-Regular-Oblique.ttf) format('truetype'),
+url(http://sea2016.flywheelsites.com/webfonts/GT-Walsheim-Regular-Oblique.svg#youworkforthem) format('svg');
+font-weight: normal;
+font-style: normal;
+}
+@font-face {
+font-family: 'GT-Walsheim-Bold';
+src: url(http://sea2016.flywheelsites.com/webfonts/GT-Walsheim-Bold.eot);
+src: url(http://sea2016.flywheelsites.com/webfonts/GT-Walsheim-Bold.eot?#iefix) format('embedded-opentype'),
+url(http://sea2016.flywheelsites.com/webfonts/GT-Walsheim-Bold.woff2) format('woff2'),
+url(http://sea2016.flywheelsites.com/webfonts/GT-Walsheim-Bold.woff) format('woff'),
+url(http://sea2016.flywheelsites.com/webfonts/GT-Walsheim-Bold.ttf) format('truetype'),
+url(http://sea2016.flywheelsites.com/webfonts/GT-Walsheim-Bold.svg#youworkforthem) format('svg');
+font-weight: normal;
+font-style: normal;
+}
+@font-face {
+font-family: 'GT-Walsheim-Bold-Oblique';
+src: url(http://sea2016.flywheelsites.com/webfonts/GT-Walsheim-Bold-Oblique.eot);
+src: url(http://sea2016.flywheelsites.com/webfonts/GT-Walsheim-Bold-Oblique.eot?#iefix) format('embedded-opentype'),
+url(http://sea2016.flywheelsites.com/webfonts/GT-Walsheim-Bold-Oblique.woff2) format('woff2'),
+url(http://sea2016.flywheelsites.com/webfonts/GT-Walsheim-Bold-Oblique.woff) format('woff'),
+url(http://sea2016.flywheelsites.com/webfonts/GT-Walsheim-Bold-Oblique.ttf) format('truetype'),
+url(http://sea2016.flywheelsites.com/webfonts/GT-Walsheim-Bold-Oblique.svg#youworkforthem) format('svg');
+font-weight: normal;
+font-style: normal;
+}
+@font-face {
+font-family: BwModelicaSS02-Black;
+src: url(http://sea2016.flywheelsites.com/webfonts/bw-modelica-ss02-black.eot);
+src: url(http://sea2016.flywheelsites.com/webfonts/bw-modelica-ss02-black.eot?#iefix) format('embedded-opentype'),
+url(http://sea2016.flywheelsites.com/webfonts/bw-modelica-ss02-black.woff2) format('woff2'),
+url(http://sea2016.flywheelsites.com/webfonts/bw-modelica-ss02-black.woff) format('woff'),
+url(http://sea2016.flywheelsites.com/webfonts/bw-modelica-ss02-black.ttf) format('truetype'),
+url(http://sea2016.flywheelsites.com/webfonts/bw-modelica-ss02-black.svg#youworkforthem) format('svg');
+font-weight: normal;
+font-style: normal;
+}
+
+.container-fluid {
+	background-color: white;
+}
+
+#logo {
+	width:50px;
+    height: auto;
+    transform: translateY(10%);
+}
+
+b {
+	color: black;
+
+}
+
+li {
+	padding-left: 50px;
+}
+
+.signin {
+	border-style: solid;
+    border-width: 3px;
+    border-radius: 5px;
+    padding-right: .25cm;
+    padding-left: .25cm;
+}
+
+.signup {
+	background: #F15856;
+	border-color: #F15856;
+	border-style: solid;
+    border-width: 3px;
+    border-radius: 5px;
+    padding-right: .25cm;
+    padding-left: .25cm;
+}
+
+h3 {
+    text-align: center;
+}
+
+.didyouknow {
+    text-align: center;
+}
+
+#burger {
+    background: #03C4FA;
+    width: auto;
+    height: 150px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 100px;
+    vertical-align: middle;
+    padding: 25px;
+    float: left;
+}
+
+#water {
+    background: #03C4FA;
+    width: auto;
+    height: 150px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 100px;
+    vertical-align: middle;
+    padding: 25px;
+    float: left;
+}
+
+#shower {
+    background: #03C4FA;
+    width: auto;
+    height: 150px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 100px;
+    vertical-align: middle;
+    padding: 25px;
+    float: left;
+}
+
+.summary {
+    text-align: center;
+    font-weight: bold;
+    position: relative;
+    top: 175px;
+    right: 250px;
+    color: #BDCBD4;
+    font-size: 50px;
+    letter-spacing: 15px;
+}
