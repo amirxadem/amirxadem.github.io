@@ -3,6 +3,7 @@ font-family: 'myFirstFont';
 src: url(/holycow/font2/GT-Walsheim-Pro-Trial-Bold.otf);
 }
 
+<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
 .row {
 	background-color: #FE5653;
     padding-bottom: 170px;
