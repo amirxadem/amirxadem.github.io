@@ -244,6 +244,8 @@ src: url(/holycow/font2/GT-Walsheim-Pro-Trial-Bold.otf);
     text-align: center;
     margin-right: 290px;
     margin-left: 290px;
+    padding-bottom: 800px;
+    border: 0px solid black;
 }
 
 .eximages img {
